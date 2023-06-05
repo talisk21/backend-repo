@@ -1,0 +1,48 @@
+{
+  "version": "31.0.0",
+  "files": {
+    "fc0d0af43613697219dbfa84869fefd888255ab2acd65c9d3b967b2fec824f53": {
+      "source": {
+        "path": "/Users/talisk/Documents/study/asw-study-backend-repository/aws-study-backend-repos/product-service",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1",
+          "objectKey": "fc0d0af43613697219dbfa84869fefd888255ab2acd65c9d3b967b2fec824f53.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-east-1"
+        }
+      }
+    },
+    "12f6bb9561d8bfa7d26ece88ec9a8e7d99ccd4ad5a86fe7ca938945e9cca9f55": {
+      "source": {
+        "path": "/Users/talisk/Documents/study/asw-study-backend-repository/aws-study-backend-repos/product-service",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1",
+          "objectKey": "12f6bb9561d8bfa7d26ece88ec9a8e7d99ccd4ad5a86fe7ca938945e9cca9f55.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-east-1"
+        }
+      }
+    },
+    "581fb764a7e31d7877e7da9de0b02a20d14ccca8463104b68114ebb03f253aed": {
+      "source": {
+        "path": "ProductServiceStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1",
+          "objectKey": "581fb764a7e31d7877e7da9de0b02a20d14ccca8463104b68114ebb03f253aed.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
